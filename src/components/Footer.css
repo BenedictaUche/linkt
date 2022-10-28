@@ -1,0 +1,32 @@
+.foot-side {
+    position: absolute;
+    bottom: 10px;
+    right: 60px;
+    left: 400px;
+}
+span {
+    color: #E7332B;
+    font-size: 50px;
+}
+#center {
+    color: #667085;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    justify-content: center;
+    margin-top: 73px;
+}
+#img_ing {
+    position: absolute;
+    width: 80px;
+    height: 22px;
+    margin-left: 837px;
+    margin-bottom: 300px;
+}
+.foot {
+    border: 14px;
+    border-color: #000000;
+}

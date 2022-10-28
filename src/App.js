@@ -4,6 +4,7 @@ import 'primeicons/primeicons.css';
 import './App.css';
 import './components/img.css';
 import './components/button.css';
+import './components/Footer.css';
 import Footer from './components/Footer';
 
 function App() {
@@ -48,9 +49,9 @@ function App() {
         <div className="p-d-flex p-jc-center p-ai-center">
           <p><b>{data.name}</b></p>
         </div>
-        <div className="p-d-flex p-jc-center p-ai-center">
+        <div className="p-d-flex p-jc-center p-ai-center" id="btn">
           <Router>
-            <div className="p-d-flex p-flex-column" id="btn">
+            <div className="p-d-flex p-flex-column">
               <a href="https://www.twitter.com/Benny_dicta1" target="_blank" rel="noreferrer">
                 <button id="twitter_name" className="p-m-2 p-px-3">Follow me on twitter</button>
               </a>

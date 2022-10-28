@@ -1,16 +1,17 @@
 import React from "react";
 import 'primeicons/primeicons.css';
-//import './components/Footer.css';
+import 'primeflex/primeflex.css';
+import imgs from "./zuri.png";
 
-const Footer = () => {
+function Footer() {
     return (
       <footer>
-        <p>Zuri <span>.</span> Internship</p>
-        <p>HNG Internship 9 Frontend Task</p>
-        <div>
-          <img src="#" alt="Some logos"></img>
-          INGRESSIVE<br />
-          FOR GOOD
+        <div class="foot">
+          <b><p class="foot-side">Zuri<span>.</span> Internship</p></b>
+          <p className="p-d-flex" id="center">HNG Internship 9 Frontend Task</p>
+          <div class="ingress">
+            <img src={imgs} alt="Some logos" id="img_ing"/>
+          </div>
         </div>
       </footer>
     )

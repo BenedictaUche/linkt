@@ -1,6 +1,6 @@
 button {
     display: block;
-    width: 150%;
+    width: 220%;
     border: none;
     background-color: gray;
     padding: 14px 28px;
@@ -11,7 +11,7 @@ button {
 }
 
 #btn {
-    justify-content: center;
+    padding-right: 250px;
 }
 
 button:hover {
