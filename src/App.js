@@ -6,6 +6,9 @@ import './components/img.css';
 import './components/button.css';
 import './components/Footer.css';
 import Footer from './components/Footer';
+import './imgs/github_icon.png';
+import imgs from './imgs/slack_icon.png';
+import img from './imgs/github_icon.png';
 
 function App() {
 
@@ -72,9 +75,9 @@ function App() {
               </a>
             </div>
           </Router>
-          <div className="p-d-flex p-jc-center p-ai-center">
-            <i class="pi pi-slack"></i>
-            <i class="pi pi-github"></i>
+          <div className="p-d-flex p-jc-center p-ai-center" id="icons_app">
+            <img src={imgs} alt="slack"/>
+            <img src={img} alt="github"/>
           </div>
         </div>
         <div>

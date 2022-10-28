@@ -5,11 +5,11 @@
 a {
   text-decoration: none;
 }
-i {
+#icons_app {
   position: relative;
   top: 200px;
   right: 20px;
-  margin: 4px;
+  margin: 10px;
 }
 .App-logo {
   height: 40vmin;

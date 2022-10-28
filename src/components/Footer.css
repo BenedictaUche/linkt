@@ -23,10 +23,15 @@ span {
     position: absolute;
     width: 80px;
     height: 22px;
-    margin-left: 837px;
+    margin-left: 0px;
     margin-bottom: 300px;
+    align-items: auto;
+}
+.ingress {
+    padding-right: 400px;
+    float: right;
 }
 .foot {
-    border: 14px;
-    border-color: #000000;
+    display: flex;
+    justify-content: space-between;
 }
