@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
 }
@@ -7,9 +12,30 @@ a {
 }
 #icons_app {
   position: relative;
-  top: 200px;
+  top: 265px;
   right: 20px;
   margin: 10px;
+  gap: 20px;
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+#icons_app img {
+  border-radius: 0;
+  height: 23px;
+  left: 0;
+  top: 0;
+  width: 24px;
+}
+.contain {
+    margin: 40px auto;
+    max-width: 767px;
+    position: relative;
+}
+div {
+  display: block;
 }
 .App-logo {
   height: 40vmin;
@@ -43,5 +69,16 @@ a {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media only screen and (min-width: 500px) {
+  .footer {
+    width: 55%;
+  }
+  #btn {
+    align-items: center;
+    margin-left: 30%;
+    padding-left: 20vh;
+    justify-items: center;
   }
 }

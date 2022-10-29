@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import './imgs/github_icon.png';
 import imgs from './imgs/slack_icon.png';
 import img from './imgs/github_icon.png';
+import image from './imgs/share_btn.png';
 
 function App() {
 
@@ -46,38 +47,49 @@ function App() {
   return (
     <div class="container">
       <div className="p-m-4">
-        <div className="p-d-flex p-jc-center p-ai-center">
-          <img id="profile__img" src="https://github.com/BenedictaUche.png" alt="A snapshot of Benedicta"></img>
-        </div>
-        <div className="p-d-flex p-jc-center p-ai-center">
-          <p><b>{data.name}</b></p>
-        </div>
-        <div className="p-d-flex p-jc-center p-ai-center" id="btn">
-          <Router>
-            <div className="p-d-flex p-flex-column">
-              <a href="https://www.twitter.com/Benny_dicta1" target="_blank" rel="noreferrer">
-                <button id="twitter_name" className="p-m-2 p-px-3">Follow me on twitter</button>
-              </a>
-              <a href="https://training.zuri.team/" target="_blank" rel="noreferrer">
-                <button id="btn-zuri" className="p-m-2 p-px-3">Zuri Team</button>
-              </a>
-              <a href="http://books.zuri.team" target="_blank" rel="noreferrer">
-                <button id="books" className="p-m-2 p-px-3">Zuri Books</button>
-              </a>
-              <a href="https://books.zuri.team/python-for-beginners?ref_id=Benedicta" target="_blank" rel="noreferrer">
-                <button id="book__python" className="p-m-2 p-px-3">Python Books</button>
-              </a>
-              <a href="https://background.zuri.team" target="_blank" rel="noreferrer">
-                <button id="pitch" className="p-m-2 p-px-3">Background Check for Coders</button>
-              </a>
-              <a href="https://books.zuri.team/design-rules" target="_blank" rel="noreferrer">
-                <button id="book_design" className="p-m-2 p-px-3">Design Books</button>
-              </a>
+        <div class="contain">
+          <div class="profile">
+            <div className="p-d-flex p-jc-center p-ai-center">
+              <img id="profile__img" src="https://github.com/BenedictaUche.png" alt="A snapshot of Benedicta"></img>
             </div>
-          </Router>
-          <div className="p-d-flex p-jc-center p-ai-center" id="icons_app">
-            <img src={imgs} alt="slack"/>
-            <img src={img} alt="github"/>
+            <div className="p-d-flex p-jc-center p-ai-center">
+              <p><b>{data.name}</b></p>
+            </div>
+            <div class="icon desktop">
+              <img src={image} alt="share"></img>
+            </div>
+            <div class="icon mobile">
+              <p class="share show">share</p>
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAECAYAAACHtL/sAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACpSURBVHgBnY/BCcJgDIVftFW8dQQ30BF0Ez1YvJmjCtK/oPbo31v1oiM5giP0IgWLjYnSBXwQ+EjCSx5BFXOWECQiUF74zcN6zC6q0EuMB3il3rvSeMnZUNAkoO79fFrnwYIPM6Bxgq/GWlODJ0KnpivjCiGZp7FArro7gbz18JE6ejXCn+pAyuDitz7mPdRopJW2wxq16yPEL0Lt2r7uzPUP1hhl4Xe3D9ZbNY7hCTIUAAAAAElFTkSuQmCC" alt="" />
+            </div>
+          </div>
+          <div className="p-d-flex p-jc-center p-ai-center" id="btn">
+            <Router>
+              <div className="p-d-flex p-flex-column">
+                <a href="https://www.twitter.com/Benny_dicta1" target="_blank" rel="noreferrer">
+                  <button id="twitter" className="p-m-2 p-px-3">Follow me on twitter</button>
+                </a>
+                <a href="https://training.zuri.team/" target="_blank" rel="noreferrer">
+                  <button id="btn-zuri" className="p-m-2 p-px-3">Zuri Team</button>
+                </a>
+                <a href="http://books.zuri.team" target="_blank" rel="noreferrer">
+                  <button id="books" className="p-m-2 p-px-3">Zuri Books</button>
+                </a>
+                <a href="https://books.zuri.team/python-for-beginners?ref_id=Benedicta" target="_blank" rel="noreferrer">
+                  <button id="book__python" className="p-m-2 p-px-3">Python Books</button>
+                </a>
+                <a href="https://background.zuri.team" target="_blank" rel="noreferrer">
+                  <button id="pitch" className="p-m-2 p-px-3">Background Check for Coders</button>
+                </a>
+                <a href="https://books.zuri.team/design-rules" target="_blank" rel="noreferrer">
+                  <button id="book_design" className="p-m-2 p-px-3">Design Books</button>
+                </a>
+              </div>
+            </Router>
+            <div className="p-d-flex p-jc-center p-ai-center" id="icons_app">
+              <img src={imgs} alt="slack"/>
+              <img src={img} alt="github"/>
+            </div>
           </div>
         </div>
         <div>

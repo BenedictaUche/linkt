@@ -1,4 +1,4 @@
-.foot-side {
+/*.foot-side {
     position: absolute;
     bottom: 10px;
     right: 60px;
@@ -34,4 +34,57 @@ span {
 .foot {
     display: flex;
     justify-content: space-between;
+} */
+footer .container {
+    margin: 40px auto;
+    max-width: 767px;
+
+}
+.footer {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-top: 10px;
+    position: relative;
+}
+.footer h3 {
+    position: relative;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+span {
+    color: #E7332B;
+    font-size: 50px;
+}
+.footer p {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #667085;
+}
+.ingress img {
+    width: 100px;
+}
+
+.footer:after {
+    background-color: #EAECF0;
+    content: "";
+    height: 1px;
+    margin-bottom: 1px;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }

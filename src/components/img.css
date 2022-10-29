@@ -3,3 +3,48 @@
     width: 80px;
     height: 80px;
 }
+.icon {
+    border: 1px dotted #3a3c3f;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 5px;
+    position: absolute;
+    right: 1rem;
+    text-align: center;
+    top: 1rem;
+}
+.icon img {
+    height: 100%;
+    width: 100%;
+}
+.profile img {
+    border-radius: 50%;
+}
+.mobile {
+    display: none;
+}
+.icon {
+    border: 1px dotted #3a3c3f;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 5px;
+    position: absolute;
+    right: 1rem;
+    text-align: center;
+    top: 1rem;
+}
+.share.show {
+    display: block;
+}
+.share {
+    background-color: #101828;
+    border-radius: 10px;
+    color: #eaecf0;
+    display: none;
+    font-size: inherit;
+    left: -50px;
+    margin-left: -10px;
+    padding: 4px 8px;
+    position: absolute;
+    top: 0;
+}
