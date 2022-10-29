@@ -1,0 +1,27 @@
+button {
+    display: block;
+    width: 300%;
+    height: 70px;
+    border: none;
+    background-color: #EAECF0;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+    left: 200%;
+}
+#btn {
+    padding-right: 400px;
+    margin: 0 auto; 
+    font-family:'Roboto', sans-serif;
+}
+#btn button {
+    padding-right: 300px;
+    margin-left: 105%;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #FBF5DF;
+}
