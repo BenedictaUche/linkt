@@ -83,15 +83,15 @@ div {
   }
   .mobile {
     display: none;
-}
-.icon {
-    border: 1px dotted #3a3c3f;
-    border-radius: 50%;
-    cursor: pointer;
-    padding: 5px;
-    position: absolute;
-    right: 1rem;
-    text-align: center;
-    top: 1rem;
-}
+  }
+  .icon {
+      border: 1px dotted #3a3c3f;
+      border-radius: 50%;
+      cursor: pointer;
+      padding: 5px;
+      position: absolute;
+      right: 1rem;
+      text-align: center;
+      top: 1rem;
+  }
 }
