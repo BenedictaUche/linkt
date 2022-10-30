@@ -67,23 +67,23 @@ function App() {
           
             <Router>
               <div className="p-d-flex p-flex-column">
-                <a href="https://www.twitter.com/Benny_dicta1" target="_blank" rel="noreferrer">
-                  <button id="twitter" className="p-m-2 p-px-3">Follow me on twitter</button>
+                <a href="https://www.twitter.com/Benny_dicta1" target="_blank" rel="noreferrer" id="twitter">
+                  <button className="p-m-2 p-px-3">Follow me on twitter</button>
                 </a>
-                <a href="https://training.zuri.team/" target="_blank" rel="noreferrer">
-                  <button id="btn-zuri" className="p-m-2 p-px-3">Zuri Team</button>
+                <a href="https://training.zuri.team/" target="_blank" rel="noreferrer" id="btn-zuri">
+                  <button className="p-m-2 p-px-3">Zuri Team</button>
                 </a>
-                <a href="http://books.zuri.team" target="_blank" rel="noreferrer">
-                  <button id="books" className="p-m-2 p-px-3">Zuri Books</button>
+                <a href="http://books.zuri.team" target="_blank" rel="noreferrer" id="books">
+                  <button className="p-m-2 p-px-3">Zuri Books</button>
                 </a>
-                <a href="https://books.zuri.team/python-for-beginners?ref_id=benedicta160" target="_blank" rel="noreferrer">
-                  <button id="book__python" className="p-m-2 p-px-3">Python Books</button>
+                <a href="https://books.zuri.team/python-for-beginners?ref_id=benedicta160" target="_blank" rel="noreferrer" id="book__python"  title="A well compiled Python book for everyone">
+                  <button className="p-m-2 p-px-3">Python Books</button>
                 </a>
-                <a href="https://background.zuri.team" target="_blank" rel="noreferrer">
-                  <button id="pitch" className="p-m-2 p-px-3">Background Check for Coders</button>
+                <a href="https://background.zuri.team" target="_blank" rel="noreferrer" id="pitch">
+                  <button className="p-m-2 p-px-3">Background Check for Coders</button>
                 </a>
-                <a href="https://books.zuri.team/design-rules" target="_blank" rel="noreferrer">
-                  <button id="book_design" className="p-m-2 p-px-3">Design Books</button>
+                <a href="https://books.zuri.team/design-rules" target="_blank" rel="noreferrer" id="book_design">
+                  <button className="p-m-2 p-px-3">Design Books</button>
                 </a>
               </div>
             </Router>
