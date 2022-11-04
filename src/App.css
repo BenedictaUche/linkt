@@ -85,7 +85,7 @@ div {
   padding: 10px 0;
   color: #fff;
   outline: none;
-  border: 1px solid indigo;
+  border: 0;
   background: #1570EF;
   width: 100%;
   cursor: pointer;
