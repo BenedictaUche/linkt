@@ -139,6 +139,16 @@ form .row .text {
   font-weight: bold;
   color: #344054;
 }
+form .email-btn .email {
+  font-size: 14px;
+  font-weight: bold;
+  color: #344054;
+}
+form .message-btn .message {
+  font-size: 14px;
+  font-weight: bold;
+  color: #344054;
+}
 form .row label {
   margin-right: 64%;
 }
@@ -154,7 +164,7 @@ form .radio-btn input {
   width: 5%;
 }
 form .radio-btn label {
-  font-size: 15px;
+  font-size: 16px;
 }
 form .message-btn textarea {
   resize: none;

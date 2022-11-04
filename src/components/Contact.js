@@ -27,14 +27,14 @@ const Contact = () => {
           <input type="email" id="email" name="email" placeholder="yourname@email.com" />
         </div>
         <div className="message-btn">
-          <label htmlFor="message" className="">
+          <label htmlFor="message" className="message">
               Message
           </label>
           <textarea id="message" name="message" placeholder="Send me a message and i will reply you as soon as possible" />
         </div>
         <div class="radio-btn">
           <input type="checkbox" id="radio" />
-          <label htmlFor="radio">You agree to provide your data to benedicta160 who may contact you</label>
+          <label htmlFor="radio">You agree to providing your data to benedicta160 who may contact you</label>
         </div>
         <button type="submit" className="form-btn">
           Send Message
