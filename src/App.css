@@ -208,6 +208,33 @@ form .message-btn textarea {
     width: 100%;
   }
   .message-btn #message {
-    font-size: 15px;
+    font-size: 13px;
+  }
+  form .message-btn .message {
+    font-size: 12px;
+  }
+  form .row .text {
+    font-size: 12px;
+  }
+  form .email-btn .email {
+    font-size: 12px;
+  }
+  form input {
+    font-size: 13px;
+  }
+  form .row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0
+  }
+  form .row .first-name {
+    width: 100%;
+  }
+  form .row .last-name {
+    width: 100%;
+  }
+  form .row .text {
+    margin-right: 83%;
   }
 }
