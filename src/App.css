@@ -135,7 +135,9 @@ form {
   max-width: 600px;
 }
 form .row .text {
-  font-size: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #344054;
 }
 form .row label {
   margin-right: 64%;
