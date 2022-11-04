@@ -8,13 +8,13 @@ const Contact = () => {
         </div>
         <div class="row">
           <div class="first-name" id="input-group">
-            <label htmlFor="first-name" className="">
+            <label htmlFor="first-name" className="text">
               First name
             </label>
             <input type="text" id="first_name" name="First-Name" placeholder="Enter your first name" />
           </div>
           <div class="last-name" id="input-group">
-            <label htmlFor="last-name" className="">
+            <label htmlFor="last-name" className="text">
               Last name
             </label>
             <input type="text" id="last_name" name="Last-Name" placeholder="Enter your last name" />
