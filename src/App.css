@@ -175,7 +175,7 @@ form .message-btn textarea {
   margin-top: 5%;
 }
 #radio {
-  opacity: 70%;
+  border: 1px solid #D0D5DD;
 }
 
 
