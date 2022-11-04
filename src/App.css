@@ -21,12 +21,13 @@ a {
   gap: 20px;
   justify-content: center;
   margin-top: 20px;
+  margin-left: 30px;
 }
 #icons_app img {
   border-radius: 0;
   height: 23px;
   margin-left: 10px;
-  top: 0;
+  margin-top: 90px;
   width: 24px;
 }
 .contain {
@@ -62,6 +63,98 @@ div {
 .App-link {
   color: #61dafb;
 }
+/* Contact Styling */
+
+.form-box {
+  min-width: 100%;
+  height: 100vh;
+  margin: 0vw;
+  padding: 25px 30px;
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.form-box label {
+  font-size: 16px;
+  height: 100%;
+  margin: 0 0 2vh 0;
+  margin-right: 10%;
+}
+.form-btn {
+  padding: 10px 0;
+  color: #fff;
+  outline: none;
+  border: 1px solid indigo;
+  background: blue;
+  width: 100%;
+  cursor: pointer;
+  height: 50%;
+}
+.form-btn:hover {
+  background: indigo;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.row .input-group {
+  flex-basis: 48%;
+}
+form .radio #radio{
+  margin-right: 50%;
+}
+p {
+  color: gray;
+}
+form h2 {
+  font-size: 35px;
+}
+.form-box input, textarea {
+  display: block;
+  width: 100%;
+  padding: .5rem .8rem .5rem .8rem;
+  margin: .9vw 0;
+  border: 2px solid #D3D3D3;
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 10px;
+}
+.form-box textarea {
+  height: 15vh;
+}
+.form-head {
+  margin-right: 26%;
+  margin-bottom: 5%;
+}
+.form-head h2 {
+  margin-right: 56%;
+}
+form {
+  width: 90%;
+  max-width: 600px;
+}
+form .row label {
+  margin-right: 64%;
+}
+form .email-btn label {
+  margin-right: 93%;
+}
+form .message-btn label {
+  margin-right: 90%;
+}
+form .radio-btn input {
+  float:left;
+  margin: 5px 0px;
+  width: 5%;
+}
+form .radio-btn label {
+  font-size: 15px;
+}
+form .message-btn textarea {
+  resize: none;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -71,6 +164,9 @@ div {
     transform: rotate(360deg);
   }
 }
+
+/*Media query for phone screen */
+
 @media only screen and (max-width: 768px) {
   .footer {
     width: 55%;
@@ -93,5 +189,8 @@ div {
     margin-left: 80%;
     display: block;
     float:right;
+  }
+  .form-head {
+    width: 100%;
   }
 }
