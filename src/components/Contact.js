@@ -34,7 +34,7 @@ const Contact = () => {
         </div>
         <div class="radio-btn">
           <input type="checkbox" id="radio" />
-          <label htmlFor="radio">You agree to providing your data to benedicta160 who may contact you</label>
+          <label htmlFor="radio" className="agree-txt">You agree to providing your data to benedicta160 who may contact you</label>
         </div>
         <button type="submit" className="form-btn">
           Send Message

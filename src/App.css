@@ -138,6 +138,7 @@ form .row .text {
   font-size: 14px;
   font-weight: bold;
   color: #344054;
+  margin-right: 64%;
 }
 form .email-btn .email {
   font-size: 14px;
@@ -169,6 +170,11 @@ form .radio-btn label {
 form .message-btn textarea {
   resize: none;
 }
+.radio-btn {
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
 
 @keyframes App-logo-spin {
   from {
@@ -234,7 +240,22 @@ form .message-btn textarea {
   form .row .last-name {
     width: 100%;
   }
+  .form-head h2{
+    font-size: 25px;
+    margin-right: 64%;
+    width: 50%;
+    text-align: left;
+  }
+  .form-head p {
+    font-size: 14px;
+    text-align: left;
+  }
+  form .radio-btn .agree-txt {
+    font-size: 14px;
+    text-align: left;
+  }
   form .row .text {
-    margin-right: 83%;
+    margin-right: 78%;
+    text-align: left;
   }
 }
