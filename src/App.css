@@ -193,4 +193,7 @@ form .message-btn textarea {
   .form-head {
     width: 100%;
   }
+  .message-btn #message {
+    font-size: 15px;
+  }
 }
