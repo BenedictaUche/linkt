@@ -33,8 +33,12 @@ const Contact = () => {
           <textarea id="message" name="message" placeholder="Send me a message and i will reply you as soon as possible..." />
         </div>
         <div class="radio-btn">
-          <input type="checkbox" id="radio" />
-          <label htmlFor="radio" className="agree-txt">You agree to providing your data to Benedicta Onyebuchi who may contact you</label>
+          <div class="btn-check">
+            <input type="checkbox" id="radio" />
+          </div>
+          <div class="agree-btn">
+            <label htmlFor="radio" className="agree-txt">You agree to providing your data to Benedicta Onyebuchi who may contact you</label>
+          </div>
         </div>
         <button type="submit" className="form-btn">
           Send Message
