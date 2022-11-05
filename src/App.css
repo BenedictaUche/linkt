@@ -99,6 +99,17 @@ div {
   align-items: center;
   justify-content: space-between;
 }
+/*
+form .row .first-name input {
+  width: 122%;
+}
+form .row .last-name input {
+  width: 122.5%;
+}
+form .row .last-name {
+  margin-right: 8%;
+}
+*/
 .row .input-group {
   flex-basis: 48%;
 }
@@ -138,7 +149,7 @@ form .row .text {
   font-size: 14px;
   font-weight: bold;
   color: #344054;
-  margin-right: 64%;
+  margin-right: 65%;
 }
 form .email-btn .email {
   font-size: 14px;
@@ -261,7 +272,7 @@ form .radio-btn .agree-btn {
     font-size: 14px;
   }
   form .row .text {
-    margin-right: 78%;
+    margin-right: 80%;
     text-align: left;
   }
   form .radio-btn {
