@@ -4,7 +4,7 @@ const Contact = () => {
       <form>
         <div class="form-head">
           <h2>Contact Me</h2>
-          <p>Hi there, contact me to ask about anything you have in mind</p>
+          <p>Hi there, contact me to ask about anything you have in mind.</p>
         </div>
         <div class="row">
           <div class="first-name" id="input-group">
@@ -30,11 +30,11 @@ const Contact = () => {
           <label htmlFor="message" className="message">
               Message
           </label>
-          <textarea id="message" name="message" placeholder="Send me a message and i will reply you as soon as possible" />
+          <textarea id="message" name="message" placeholder="Send me a message and i will reply you as soon as possible..." />
         </div>
         <div class="radio-btn">
           <input type="checkbox" id="radio" />
-          <label htmlFor="radio" className="agree-txt">You agree to providing your data to benedicta160 who may contact you</label>
+          <label htmlFor="radio" className="agree-txt">You agree to providing your data to Benedicta Onyebuchi who may contact you</label>
         </div>
         <button type="submit" className="form-btn">
           Send Message
